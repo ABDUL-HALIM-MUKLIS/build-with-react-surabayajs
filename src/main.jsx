@@ -13,10 +13,10 @@ createRoot(document.getElementById('root')).render(
     <ColorProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<App />}>
+          <Route element={<App />}>
             <Route path="getapi" element={<GetApi />} />
             <Route path="kalkulator" element={<Kalkulator />} />
-            <Route path="linktree" element={<LinkTree />} />
+            <Route path="/" element={<LinkTree />} />
           </Route>
         </Routes>
       </BrowserRouter>
