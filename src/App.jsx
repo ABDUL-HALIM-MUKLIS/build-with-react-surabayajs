@@ -10,6 +10,7 @@ import { CiGlobe } from "react-icons/ci";
 import { GetApi } from "./components/getApi";
 import { Navbar } from "./components/navbar";
 import { Outlet } from "react-router";
+import { LinkTree } from "./components/linktree";
 
 export const styleButton = {
   padding: "12px 24px",
@@ -21,6 +22,7 @@ export const styleButton = {
   width: "100px",
   fontSize: "16px",
 };
+
 
 function App() {
   // const postingan = [1,2,3,4,5,6,7,8,10]
@@ -50,7 +52,7 @@ function App() {
 
 
         {/* <GetApi /> */}
-
+        <LinkTree />
       <Outlet />
     </div>
   );

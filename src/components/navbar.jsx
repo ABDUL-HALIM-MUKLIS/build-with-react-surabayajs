@@ -28,7 +28,7 @@ export const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
             <li><NavLink to="/getapi" className={({isActive}) => (isActive && state) ? "bg-primary text-white" : isActive && "bg-black text-white"}>Get Api</NavLink></li>
             <li><NavLink to="/kalkulator" className={({isActive}) => (isActive && state) ? "bg-primary text-white" : isActive && "bg-black text-white"}>kalkulator</NavLink></li>
-            <li><NavLink to="/linktree" className={({isActive}) => (isActive && state) ? "bg-primary text-white" : isActive && "bg-black text-white"}>LinkTree</NavLink></li>
+            <li><NavLink to="/" className={({isActive}) => (isActive && state) ? "bg-primary text-white" : isActive && "bg-black text-white"}>LinkTree</NavLink></li>
             {/* <li>
               <a>Parent</a>
               <ul className="p-2">
@@ -44,7 +44,7 @@ export const Navbar = () => {
         <ul className="px-1 menu menu-horizontal">
           <li><NavLink to="/getapi" className={({isActive}) => (isActive && state) ? "bg-primary text-white" : isActive && "bg-black text-white"}>Get Api</NavLink></li>
           <li><NavLink to="/kalkulator" className={({isActive}) => (isActive && state) ? "bg-primary text-white" : isActive && "bg-black text-white"}>kalkulator</NavLink></li>
-          <li><NavLink to="/linktree" className={({isActive}) => (isActive && state) ? "bg-primary text-white" : isActive && "bg-black text-white"}>LinkTree</NavLink></li>
+          <li><NavLink to="/" className={({isActive}) => (isActive && state) ? "bg-primary text-white" : isActive && "bg-black text-white"}>LinkTree</NavLink></li>
           {/* <li>
             <details>
               <summary>Parent</summary>
